@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#260b17">
+  <meta name="description" content="Uma pequena declaração de amor para Djenifer.">
+  <title>Para Djenifer, com amor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="floating-hearts" aria-hidden="true">
+    <span>♥</span><span>♡</span><span>♥</span><span>♡</span><span>♥</span><span>♡</span><span>♥</span><span>♡</span><span>♥</span><span>♡</span>
+  </div>
+  <div class="glow glow-one" aria-hidden="true"></div>
+  <div class="glow glow-two" aria-hidden="true"></div>
+  <header class="topbar"><a class="brand" href="#inicio" aria-label="Voltar ao início">D <span>♥</span></a><span>feito com carinho, para você</span><button class="music-toggle" id="music-toggle" type="button" aria-pressed="false"><span class="music-icon">♫</span><span id="music-label">Ligar música</span></button></header>
+  <audio id="background-music" loop preload="metadata"><source src="musica.mp3" type="audio/mpeg">Seu navegador não conseguiu carregar a música.</audio>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="sparkle">✦</span> fiz isso pra você, amor</p>
+        <h1>Djenifer,<br><em>ainda bem que tenho você</em></h1>
+        <p class="intro">Queria te fazer uma surpresa e juntar aqui algumas fotos, vídeos e coisas que gosto em você. Gosto muito de estar contigo. Até os dias mais normais ficam melhores quando a gente está junto.</p>
+        <a class="button" href="#nossa-historia">Tem um recado pra você <span>↓</span></a>
+      </div>
+      <div class="hero-photo-wrap">
+        <div class="hero-photo"><img src="foto-1.jpg" alt="Um momento carinhoso nosso" fetchpriority="high"></div>
+        <div class="photo-note"><span>♥</span><div><strong>essa foto me faz sorrir</strong><small>gosto muito desse momento com você</small></div></div>
+        <span class="orbit-heart" aria-hidden="true">♥</span>
+      </div>
+      <a class="scroll-cue" href="#nossa-historia" aria-label="Rolar para a próxima seção">↓</a>
+    </section>
+
+    <section class="letter section" id="nossa-historia">
+      <div class="section-label"><span>01</span> um recado meu</div>
+      <div class="letter-card">
+        <span class="quote-mark" aria-hidden="true">“</span>
+        <p class="letter-kicker">Oi, meu amor</p>
+        <h2>Gosto muito<br>da vida <em>com você.</em></h2>
+        <p class="letter-text">Eu gosto das nossas conversas, das brincadeiras e de ficar perto de você, mesmo quando a gente não está fazendo nada demais. Queria que você soubesse o quanto é importante pra mim. Te amo e espero que goste dessa surpresa.</p>
+        <p class="signature">Um beijo, <span>seu namorado ♥</span></p>
+      </div>
+    </section>
+
+    <section class="love-notes section" aria-labelledby="love-notes-title">
+      <div class="section-label"><span>02</span> umas coisas que gosto em você</div>
+      <div class="section-heading"><div><p class="eyebrow">pra você ler quando quiser</p><h2 id="love-notes-title">Alguns dos meus <em>motivos</em></h2></div><p>Tem mais de um. Pode ler todas, viu?</p></div>
+      <div class="notes-grid">
+        <article class="note-card"><span>01 · ♥</span><p>Adoro seu abraço. Sempre fico com vontade de ficar mais um pouquinho.</p></article>
+        <article class="note-card"><span>02 · ♥</span><p>Gosto de como a gente consegue rir junto até das coisas mais bobas.</p></article>
+        <article class="note-card"><span>03 · ♥</span><p>Seu sorriso é lindo. Principalmente quando eu consigo arrancar uma risada sua.</p></article>
+        <article class="note-card"><span>04 · ♥</span><p>Até fazer nada fica bom quando é com você.</p></article>
+        <article class="note-card"><span>05 · ♥</span><p>Obrigado por estar comigo e por ser essa pessoa tão importante na minha vida.</p></article>
+        <article class="note-card"><span>06 · ♥</span><p>Quero ter muitos outros dias, passeios e histórias com você.</p></article>
+        <article class="note-card"><span>07 · ♥</span><p>Olho nossas fotos e acabo sorrindo. Gosto muito de ter essas lembranças com você.</p></article>
+        <article class="note-card"><span>08 · ♥</span><p>Você me faz bem. Às vezes é só isso mesmo, e já é muita coisa.</p></article>
+        <article class="note-card"><span>09 · ♥</span><p>Quando o dia é cansativo, conversar com você já ajuda bastante.</p></article>
+        <article class="note-card"><span>10 · ♥</span><p>Gosto do seu jeito, até das manias que provavelmente você nem percebe.</p></article>
+        <article class="note-card"><span>11 · ♥</span><p>Se pudesse escolher o que fazer agora, provavelmente escolheria ficar com você.</p></article>
+        <article class="note-card"><span>12 · ♥</span><p>Tenho sorte de ter você por perto. Te amo muito.</p></article>
+      </div>
+      <div class="surprise-message" aria-live="polite"><p id="surprise-note">Clica aqui se quiser mais um recadinho.</p><button class="button" id="surprise-button" type="button">Mais um recado <span>♥</span></button></div>
+    </section>
+
+    <section class="letters section" aria-labelledby="letters-title">
+      <div class="section-label"><span>03</span> cartinhas pra você</div>
+      <div class="section-heading"><div><p class="eyebrow">escolhe uma e abre</p><h2 id="letters-title">Deixei uns recados <em>pra você</em></h2></div><p>Escolhe qualquer uma. Pode abrir todas também.</p></div>
+      <div class="envelope-grid">
+        <button class="envelope" type="button" data-letter="saudade"><span class="envelope-icon">✉</span><strong>Se bater saudade</strong><small>abre essa aqui</small></button>
+        <button class="envelope" type="button" data-letter="sorriso"><span class="envelope-icon">✉</span><strong>Pra dar uma risada</strong><small>ou pelo menos tentar :)</small></button>
+        <button class="envelope" type="button" data-letter="dia-dificil"><span class="envelope-icon">✉</span><strong>Se o dia estiver difícil</strong><small>queria poder te dar um abraço</small></button>
+        <button class="envelope" type="button" data-letter="futuro"><span class="envelope-icon">✉</span><strong>Sobre nossos planos</strong><small>tem tanta coisa pra gente fazer</small></button>
+        <button class="envelope" type="button" data-letter="obrigado"><span class="envelope-icon">✉</span><strong>Uma coisa que admiro em você</strong><small>e que talvez eu não fale tanto</small></button>
+        <button class="envelope" type="button" data-letter="amor"><span class="envelope-icon">✉</span><strong>Sem motivo nenhum</strong><small>só queria dizer que te amo</small></button>
+        <button class="envelope" type="button" data-letter="casa"><span class="envelope-icon">✉</span><strong>Sobre o seu abraço</strong><small>esse mesmo, que eu adoro</small></button>
+        <button class="envelope" type="button" data-letter="escolha"><span class="envelope-icon">✉</span><strong>Por que eu gosto de nós</strong><small>abre pra ler</small></button>
+      </div>
+      <dialog class="letter-dialog" id="letter-dialog" aria-labelledby="dialog-title">
+        <button class="dialog-close" type="button" aria-label="Fechar cartinha">×</button>
+        <span class="dialog-heart">♥</span><p class="eyebrow">uma cartinha para você</p><h2 id="dialog-title">Meu amor</h2><p class="dialog-text" id="dialog-text"></p><p class="signature">Com amor, <span>seu namorado ♥</span></p>
+      </dialog>
+    </section>
+
+    <section class="love-games section" aria-labelledby="games-title">
+      <div class="section-label"><span>04</span> brincadeiras do coração</div>
+      <div class="section-heading"><div><p class="eyebrow">agora escolhe você</p><h2 id="games-title">Uma brincadeira <em>pra gente</em></h2></div><p>Tem umas escolhas e surpresas aqui. Vê qual você gosta mais.</p></div>
+      <div class="games-grid">
+        <article class="game-card hug-game">
+          <span class="game-number">01 · ABRAÇO</span>
+          <div class="game-illustration" aria-hidden="true">♥</div>
+          <h3>Quer um abraço?</h3>
+          <p id="hug-message" aria-live="polite">Clica aqui que eu mando um bem apertado.</p>
+          <button class="game-button" id="hug-button" type="button">Manda um abraço <span>♥</span></button>
+        </article>
+        <article class="game-card">
+          <span class="game-number">02 · UM DESAFIO</span>
+          <div class="game-illustration" aria-hidden="true">✧</div>
+          <h3>O que será que saiu?</h3>
+          <p id="mission-message" aria-live="polite">Quer um desafio bobo?</p>
+          <button class="game-button" id="mission-button" type="button">Sortear desafio <span>✦</span></button>
+        </article>
+        <article class="game-card date-game">
+          <span class="game-number">03 · NOSSO PRÓXIMO ROLÊ</span>
+          <div class="game-illustration" aria-hidden="true">♡</div>
+          <h3>O que você prefere?</h3>
+          <div class="date-options" role="group" aria-label="Escolha uma ideia para o próximo encontro">
+            <button type="button" data-date="Fechado: filminho e alguma coisa gostosa pra comer. Você escolhe o filme. ♥">Filme em casa</button>
+            <button type="button" data-date="Boa! Vamos dar um passeio e tomar sorvete. Já fiquei com vontade. ♥">Passeio e sorvete</button>
+            <button type="button" data-date="Combinado: um jantar gostoso e uma noite só nossa. ♥">Jantar juntinhos</button>
+          </div>
+          <p class="date-result" id="date-result" aria-live="polite">Escolhe uma das opções aí.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="secret-letter section" id="carta-secreta">
+      <div class="secret-card">
+        <div class="secret-copy">
+          <div class="section-label"><span>05</span> um segredo só seu</div>
+          <p class="eyebrow">tem um recado escondido aqui</p>
+          <h2>Escaneia e<br><em>lê o bilhete</em></h2>
+          <p>Aponte a câmera do celular para o código. Vai aparecer uma mensagem minha pra você. ♥</p>
+        </div>
+        <div class="qr-frame">
+          <img id="love-letter-qr" alt="QR Code com uma carta de amor para Djenifer" width="240" height="240">
+          <span>um bilhetinho meu ♥</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="memories section" id="momentos">
+      <div class="section-label"><span>06</span> pedacinhos de nós</div>
+      <div class="section-heading"><div><p class="eyebrow">umas fotos nossas</p><h2>Olha esses <em>momentos</em></h2></div><p>Gosto de rever essas fotos. Essa aqui sempre me faz sorrir.</p></div>
+      <div class="gallery">
+        <figure class="memory memory-tall"><img src="foto-3.png" alt="Djenifer com um lindo buquê de rosas" loading="lazy"><figcaption><span>Você merece todas as flores.</span><b>♥</b></figcaption></figure>
+        <figure class="memory memory-wide"><img src="foto-2.png" alt="Uma selfie nossa no ônibus" loading="lazy"><figcaption><span>A gente no busão ♥</span><b>♥</b></figcaption></figure>
+        <figure class="memory memory-couple"><img src="foto-4.jpg" alt="Nós dois juntinhos em um momento divertido" loading="lazy"><figcaption><span>Gosto muito dessa foto da gente.</span><b>♥</b></figcaption></figure>
+      </div>
+    </section>
+
+    <section class="videos section" id="videos">
+      <div class="section-label"><span>07</span> dá o play, amor</div>
+      <div class="section-heading"><div><p class="eyebrow">nosso vídeo</p><h2>Olha a gente <em>aí</em></h2></div><p>Deixei esse vídeo aqui porque gosto muito dele.</p></div>
+      <div class="video-grid">
+        <article class="video-card"><video controls playsinline preload="metadata" poster="foto-1.jpg"><source src="video-2.mp4" type="video/mp4">Seu navegador não conseguiu reproduzir este vídeo.</video><p><span>01</span> Um momento nosso ♥</p></article>
+      </div>
+    </section>
+
+    <section class="ending">
+      <span class="ending-heart" aria-hidden="true">♥</span>
+      <p class="eyebrow">só mais uma coisa</p>
+      <h2>Te amo,<br><em>Djenifer.</em></h2>
+      <p>Obrigado por estar comigo. Quero continuar juntando momentos bons com você.</p>
+      <a class="button button-light" href="#inicio">Voltar pro começo <span>↑</span></a>
+      <div class="little-hearts" aria-hidden="true">♥　·　♥　·　♥</div>
+    </section>
+  </main>
+  <footer>feito com amor <span>♥</span> para Djenifer</footer>
+  <script>
+    const letters = {
+      saudade: ['Se bateu saudade', 'Se você está lendo isso, deve estar com saudade. Eu também fico. Queria poder aparecer aí agora e te dar um abraço. Por enquanto, fica com esse beijo. Te amo.'],
+      sorriso: ['Só pra te fazer sorrir', 'Lembrei de você e quis deixar esse recado. Gosto muito da sua risada e espero ter conseguido arrancar pelo menos um sorrisinho agora.'],
+      'dia-dificil': ['Se o dia foi ruim', 'Queria estar aí pra te ouvir e te dar um abraço. Não precisa fingir que está tudo bem comigo, tá? Quando quiser conversar, estou aqui. Te amo.'],
+      futuro: ['Sobre nossos planos', 'Ainda quero fazer muita coisa com você. Tem passeio, filme, comida gostosa e um monte de programa que a gente vai inventar na hora. Já estou com vontade.'],
+      obrigado: ['Uma coisa que admiro em você', 'Admiro o jeito que você é e como trata quem está perto. Talvez eu não fale isso sempre, mas eu reparo. E gosto muito de você por isso também.'],
+      amor: ['Sem motivo nenhum', 'Não aconteceu nada especial hoje. Só queria dizer que te amo e que gosto de ter você na minha vida. Pronto, era isso. Um beijo.'],
+      casa: ['Sobre o seu abraço', 'Seu abraço é bom demais. Sempre penso “só mais um pouquinho” quando estou aí. Guarda um pra mim, porque já estou com saudade.'],
+      escolha: ['Por que eu gosto da gente', 'Gosto de como a gente conversa, brinca e divide os momentos. Gosto de ser seu namorado. Espero que a gente ainda tire muitas fotos e tenha um monte de histórias pra contar.']
+    };
+    const dialog = document.getElementById('letter-dialog');
+    document.querySelectorAll('.envelope').forEach((envelope) => envelope.addEventListener('click', () => {
+      const [title, message] = letters[envelope.dataset.letter];
+      document.getElementById('dialog-title').textContent = title;
+      document.getElementById('dialog-text').textContent = message;
+      dialog.showModal();
+    }));
+    document.querySelector('.dialog-close').addEventListener('click', () => dialog.close());
+    dialog.addEventListener('click', (event) => { if (event.target === dialog) dialog.close(); });
+    const surprises = [
+      'Tô com saudade. Quando vou ganhar outro abraço seu?',
+      'Passei aqui só pra dizer que te amo. Pode voltar ao que estava fazendo. ♥',
+      'Vi nossas fotos e fiquei com saudade daquele dia.',
+      'Gosto muito de você. Até quando você rouba a coberta. ♥',
+      'Seu beijo está fazendo falta por aqui.',
+      'Obrigado por me aguentar até nos meus dias mais chatos. Te amo.',
+      'Queria estar aí agora, nem que fosse só pra ficar de bobeira com você.',
+      'Você é linda. Só deixando registrado.',
+      'Espero que seu dia esteja sendo bom. Se não estiver, depois me conta.',
+      'Quando a gente se vê de novo? Já estou com saudade.'
+    ];
+    document.getElementById('surprise-button').addEventListener('click', () => {
+      const note = document.getElementById('surprise-note');
+      let next; do { next = Math.floor(Math.random() * surprises.length); } while (surprises[next] === note.textContent);
+      note.textContent = surprises[next];
+    });
+
+    const hugs = [
+      'Abraço enviado. O de verdade eu te dou quando te encontrar. ♥',
+      'Um abraço bem apertado e um beijo na testa. Pronto. ♥',
+      'Esse aqui é demorado, tá? Não vale soltar rápido. ♥'
+    ];
+    let hugIndex = -1;
+    document.getElementById('hug-button').addEventListener('click', (event) => {
+      hugIndex = (hugIndex + 1) % hugs.length;
+      document.getElementById('hug-message').textContent = hugs[hugIndex];
+      const button = event.currentTarget;
+      button.classList.remove('hug-pop');
+      void button.offsetWidth;
+      button.classList.add('hug-pop');
+    });
+    const missions = [
+      'Me manda uma foto sua fazendo a sua melhor pose. Quero ver. ♥',
+      'Escolhe uma música pra gente ouvir junto depois. Qual vai ser?',
+      'Me fala qual lembrança nossa te faz rir. Quero saber se é a mesma que eu estou pensando.',
+      'Quando a gente se encontrar, você escolhe: abraço demorado ou beijo primeiro? ♥',
+      'Pensa num lugar onde você gostaria de ir comigo. Já temos um próximo passeio.',
+      'Manda um beijo virtual. O de verdade eu cobro depois. ♡'
+    ];
+    let missionIndex = -1;
+    document.getElementById('mission-button').addEventListener('click', () => {
+      let next;
+      do { next = Math.floor(Math.random() * missions.length); } while (next === missionIndex);
+      missionIndex = next;
+      document.getElementById('mission-message').textContent = missions[next];
+    });
+    document.querySelectorAll('.date-options button').forEach((option) => option.addEventListener('click', () => {
+      document.getElementById('date-result').textContent = option.dataset.date;
+      document.querySelectorAll('.date-options button').forEach((button) => button.setAttribute('aria-pressed', String(button === option)));
+    }));
+
+    // O texto da carta fica no próprio QR, então escanear mostra a mensagem sem abrir um site.
+    const secretLetter = 'Oi, Djenifer! Se você chegou até aqui, ganhou mais um recado meu: gosto muito de estar com você, das nossas conversas e até dos momentos em que a gente só fica junto sem fazer nada. Obrigado por ser minha namorada. Te amo e estou com saudade do seu abraço. Um beijo!';
+    document.getElementById('love-letter-qr').src = 'https://api.qrserver.com/v1/create-qr-code/?size=320x320&margin=12&color=351c24&bgcolor=fff9f4&data=' + encodeURIComponent(secretLetter);
+
+    const backgroundMusic = document.getElementById('background-music');
+    const musicToggle = document.getElementById('music-toggle');
+    const musicLabel = document.getElementById('music-label');
+    backgroundMusic.volume = 0.35;
+    musicToggle.addEventListener('click', async () => {
+      if (backgroundMusic.paused) {
+        try {
+          await backgroundMusic.play();
+          musicToggle.setAttribute('aria-pressed', 'true');
+          musicLabel.textContent = 'Pausar música';
+        } catch {
+          musicLabel.textContent = 'Tente novamente';
+        }
+      } else {
+        backgroundMusic.pause();
+        musicToggle.setAttribute('aria-pressed', 'false');
+        musicLabel.textContent = 'Ligar música';
+      }
+    });
+
+  </script>
+</body>
+</html>
